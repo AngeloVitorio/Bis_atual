@@ -1,0 +1,123 @@
+﻿.body{
+
+}
+.navbar{
+    background-color:#0A0A2A;
+    style:;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar a:hover {
+  color:black;
+}
+
+/*css slid*/
+.carousel-inner {
+    height: 719px;
+}
+
+#titulo {
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-size: 75px;
+    color: witch;
+    text-align: justify-all;
+    height: 130px;
+}
+
+#paragrafo {
+    font-family: Quinon;
+    font-size: 32px;
+    color: witch;
+    text-align: justify-all;
+    height: 495px;
+}
+/*fim css slid*/
+body {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #1C1C1C;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#opaci0 {
+    opacity:;
+}
+
+#opaci1 {
+    opacity: 0.86;
+}
+
+#opaci2 {
+    opacity:;
+}
+
+
+.bgimg-1 {
+    background-image: url("img/isl3.jpg");
+    min-height: 400px;
+}
+
+.bgimg-2 {
+    background-image: url("img/e4.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("img/foto1.png");
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+    .caption span.border {
+        background-color: #EFF8FB;
+        color: #111;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+    }
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+}
+#cor {
+    color:#F6E3CE;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+/*codigo filiais*/
+
+.responsive {
+    width: 100%;
+    max-width: 250px;
+    max-height:350px;
+    height: 100%;
+    border-radius:40%;
+}
+
+/* fim codigo filiais*/
